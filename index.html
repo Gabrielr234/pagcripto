@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./estilo/normalize.css">
+    <link rel="stylesheet" href="./estilo/style.css">
+    <script src="https://kit.fontawesome.com/dd4c9c2fd8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <a href="/"><img class="nav_logo" src="/imagens/icons/logo (2).svg" alt=""></a>
+        
+            <svg class="icon icon--white icon--primary nav_toggler">
+              
+            </svg>
+        
+            <ul class="list nav_list">
+        <li class="nav_item"><a href="#">Açoes</a></li>
+        <li class="nav_item"><a href="#">Carteiras</a></li>
+        <li class="nav_item"><a href="#">Cripto</a></li>
+        <li class="nav_item"><a href="#">Suporte</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="block block--dark block-skewed-left hero">
+        <div class="container grid grid--1x2">
+            <header class="block__header hero_content">
+                <h1 class="block_heading">Comece a investir hoje</h1>
+                <p class="hero_tagline">Invista com os melhores analistas do mercado  
+                </p>
+                <a href="#" class="btn btn--accent btn-stretched">Saiba mais</a>
+            </header>
+            <picture>
+               <source type="image/webp" srcset="\imagens/banner@2x.webp 1x,imagens/banner@2x.webp 2x"/>
+               <source type="image/png" srcset="\imagens/banner.png 1x, imagens/banner@2x.png 2x" 
+               />
+               <img class="hero_image" src="/imagens/banner.png" alt="">
+            </picture>
+        </div>
+    </section>
+    <section class="search block container">
+        <header class="block__header">
+            <h2>procure pelas melhores açoes</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, repellat?
+    
+            </p>
+        </header>
+        <div class="input-group">
+            <input type="text" class="input" placeholder="procure uma ação..." />
+            <button class="btn btn--accent">busca</button>
+        </div>
+        <ul class="list search_products">
+            <a href="#">
+                <li class="search_products-item badge">etfs</li>
+            </a>
+            <a href="#">
+                <li class="search_products-item badge">Small cap</li>
+            </a>
+            <a href="#">
+                <li class="search_products-item badge">dividendos</li>
+            </a>
+            <a href="#">
+                <li class="search_products-item badge">FIIs</li>
+            </a>
+            <a href="#">
+                <li class="search_products-item badge">REITS</li>
+            </a>
+            <a href="#">
+                <li class="search_products-item badge">s&P 500</li>
+            </a>
+            </li></a>
+        </ul>
+    </section>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
