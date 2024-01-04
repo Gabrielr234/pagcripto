@@ -195,7 +195,7 @@ icon--big {
     font-size: 1.8rem;
     font-weight: 600;
     text-transform: uppercase;
-    padding: 2rem 3rem;
+    padding: 2rem 4vw;
     border: 0;
     border-radius: 40px;
     cursor: pointer;
@@ -291,6 +291,7 @@ icon--big {
 .input-group .input {
     border: 0;
     flex-grow: 1;
+    width: 0;
 }
 
 .input-group .btn {
@@ -816,8 +817,8 @@ plan .list__item {
 }
 
 
-.footer a:hover{
-    color:var(--color-white);
+.footer a:hover {
+    color: var(--color-white);
 }
 
 .footer__section {
@@ -846,19 +847,19 @@ plan .list__item {
     margin-top: 0;
 }
 
-.footer__brand img{
-width: 100%;
-max-width: 230px;
+.footer__brand img {
+    width: 100%;
+    max-width: 230px;
 }
 
 
 
 @media Screen and (min-width:768px) {
     .footer .grid {
-        grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     }
 
-    .footer .collapsible__chevron{
+    .footer .collapsible__chevron {
         display: none;
     }
 
@@ -873,10 +874,11 @@ max-width: 230px;
         margin-top: 1rem;
     }
 
-    .footer__section{
+    .footer__section {
         border: 0;
     }
-    .footer__heading{
+
+    .footer__heading {
         font-size: 2rem;
     }
 }
